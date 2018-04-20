@@ -1,0 +1,22 @@
+{
+    "name": "atico/spreadsheet-translator-exporter-php",
+    "license": "MIT",
+    "type": "library",
+    "description": "Spreadsheet Translator - Php export format",
+    "autoload": {
+        "psr-4": {
+            "Atico\\SpreadsheetTranslator\\Exporter\\Php\\": "./src"
+        }
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "../../Core",
+        "options": {
+            "symlink": true
+        }
+    }],
+    "require": {
+        "atico/spreadsheet-translator-core": "dev-master",
+        "php": ">=5.5.9"
+    }
+}
