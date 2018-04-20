@@ -2,7 +2,14 @@
     "name": "atico/spreadsheet-translator-exporter-php",
     "license": "MIT",
     "type": "library",
-    "description": "Spreadsheet Translator - Php export format",
+    "description": "Spreadsheet Translator - Library to export translation files into PHP file format",
+    "keywords": ["library to export translation files into PHP file format"],
+    "authors": [
+        {
+            "name": "Samuel Vicent",
+            "email": "samuelvicent@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Atico\\SpreadsheetTranslator\\Exporter\\Php\\": "./src"
@@ -16,7 +23,7 @@
         }
     }],
     "require": {
-        "atico/spreadsheet-translator-core": "dev-master",
+        "atico/spreadsheet-translator-core": "^1.0",
         "php": ">=5.5.9"
     }
 }
